@@ -9,6 +9,8 @@
       <PackageLicenseExpression>MIT</PackageLicenseExpression>
       <PackageTags>Result Results exception error handling FluentResults microservice</PackageTags>
       <PackageProjectUrl>https://github.com/twinki14/FluentResults.Extensions</PackageProjectUrl>
+      <PackageIconUrl>https://raw.githubusercontent.com/twinki14/FluentResults.Extensions/mainresources/icons/FluentResults-Extensions-128x.png</PackageIconUrl>
+      <PackageIcon>FluentResults-Extensions-128x.png</PackageIcon>
 
       <!--Source Link-->
       <PublishRepositoryUrl>true</PublishRepositoryUrl>
