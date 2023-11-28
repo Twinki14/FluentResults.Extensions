@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+      <TargetFramework>net7.0</TargetFramework>
+
+      <!--Package information -->
+      <PackageId>FluentResults.Extensions.Microservice</PackageId>
+      <Authors>Twinki</Authors>
+      <PackageLicenseExpression>MIT</PackageLicenseExpression>
+      <PackageTags>Result Results exception error handling FluentResults microservice</PackageTags>
+      <PackageProjectUrl>https://github.com/twinki14/FluentResults.Extensions</PackageProjectUrl>
+
+      <!--Source Link-->
+      <PublishRepositoryUrl>true</PublishRepositoryUrl>
+      <EmbedUntrackedSources>true</EmbedUntrackedSources>
+      <IncludeSymbols>true</IncludeSymbols>
+      <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+      <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+      <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.App" />
+      <PackageReference Include="FluentResults" Version="3.15.2" />
+    </ItemGroup>
+
+</Project>
